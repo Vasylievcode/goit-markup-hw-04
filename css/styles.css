@@ -71,6 +71,36 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+/* Social Media Icons */
+
+.social-media {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--pressed-state);
+}
+.social-icon a {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+}
+.icon {
+  fill: var(--light);
+}
 /* Header */
 
 .header {
@@ -164,7 +194,7 @@ button {
   font-weight: 500;
   line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.64px;
-  background: var(--iris, #4d5ae5);
+  background: var(--primary-brand);
   margin-top: 48px;
   display: block;
   min-width: 169px;
@@ -286,6 +316,7 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 }
 /* Our Portfolio */
 
