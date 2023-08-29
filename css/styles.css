@@ -80,6 +80,7 @@ button {
   justify-content: center;
 }
 .social-icon {
+  display: flex;
   width: 40px;
   height: 40px;
 }
