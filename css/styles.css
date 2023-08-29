@@ -404,3 +404,60 @@ button {
   letter-spacing: 0.32px;
   width: 264px;
 }
+.footer-media-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-media-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.footer-social-icon a {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+}
+.footer-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  background-color: var(--success);
+}
+/* .social-media {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  background-color: var(--pressed-state);
+}
+
+.icon {
+  fill: var(--light);
+} */
