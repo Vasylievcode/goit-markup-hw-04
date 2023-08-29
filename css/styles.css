@@ -439,5 +439,8 @@ button {
 }
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+.footer-logo-text {
+  margin-right: 120px;
 }
