@@ -100,8 +100,6 @@ button {
 }
 .social-icon a {
   display: inline-flex;
-  width: 16px;
-  height: 16px;
 }
 .icon {
   fill: var(--light);
