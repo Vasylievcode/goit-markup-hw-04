@@ -143,6 +143,14 @@ button {
   color: var(--pressed-state);
 }
 
+.nav-menu li:first-child::after {
+  content: "";
+  display: flex;
+  width: 48px;
+  height: 4px;
+  background-color: #4d5ae5;
+}
+
 .header-logo {
   margin-right: 76px;
 }
