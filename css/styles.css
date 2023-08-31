@@ -142,7 +142,7 @@ button {
 .nav-link:focus {
   color: var(--pressed-state);
 }
-.nav-menu .current:first-child:first-child {
+.nav-menu .current:first-child {
   position: relative;
 }
 .nav-menu .current:first-child::after {
