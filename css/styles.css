@@ -142,13 +142,22 @@ button {
 .nav-link:focus {
   color: var(--pressed-state);
 }
-
+.nav-menu li:first-child {
+  position: relative;
+  color: #404bbf;
+}
 .nav-menu li:first-child::after {
   content: "";
   display: flex;
   width: 48px;
   height: 4px;
   background-color: #4d5ae5;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  color: #404bbf;
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo {
