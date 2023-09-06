@@ -244,6 +244,7 @@ button {
   background-color: var(--pressed-state);
 }
 /* Features */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -433,6 +434,7 @@ button {
   letter-spacing: 0.32px;
 }
 /* Footer */
+
 .footer {
   padding: 100px 0;
 }
