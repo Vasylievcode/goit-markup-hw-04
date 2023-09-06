@@ -393,6 +393,8 @@ button {
   padding: 40px 32px;
   position: absolute;
   color: var(--light);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   top: 0;
   left: 0;
   width: 100%;
