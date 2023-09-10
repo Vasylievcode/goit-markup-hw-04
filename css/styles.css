@@ -206,6 +206,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
 }
 .hero-header {
   color: var(--white-background);
